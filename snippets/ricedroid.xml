@@ -20,7 +20,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="RiceDroid/android_build_soong" remote="rice" >
+  <project path="build/soong" name="darklightnest/android_build_soong-rice" remote="github" revision="twelve" clone-depth="1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
