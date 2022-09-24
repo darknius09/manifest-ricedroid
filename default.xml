@@ -27,6 +27,10 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/twelve" />
+  
+  <remote  name="sairam-gitlab"
+           fetch="https://gitlab.com/Project-Awaken"
+           revision="refs/heads/12.1" />
            
   <remote  name="iu-gitlab"
            fetch="https://gitlab.com/dlwlrma123"
@@ -1079,10 +1083,6 @@
   
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r458507" name="OhMyVenyx/clang-r458507" remote="gitlab" revision="master" clone-depth="1" />
-
-<!-- Pixel Launcher Mod -->
-<project path="vendor/PixelLauncher" name="arcana-ext/vendor_PixelLauncher" remote="github" revision="12.x" />
-        
 
   <include name="snippets/ricedroid.xml" />
   <include name="snippets/external.xml" />
