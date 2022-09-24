@@ -28,8 +28,8 @@
            sync-j="4"
            revision="refs/heads/twelve" />
   
-  <remote  name="sairam-gitlab"
-           fetch="https://gitlab.com/Project-Awaken"
+  <remote  name="darx"
+           fetch="https://gitlab.com/darknius09"
            revision="refs/heads/12.1" />
            
   <remote  name="iu-gitlab"
