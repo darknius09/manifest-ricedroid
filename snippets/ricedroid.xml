@@ -65,7 +65,6 @@
   <project path="packages/apps/Messaging" name="RiceDroid/android_packages_apps_Messaging" remote="rice" />
   <project path="packages/apps/SimIcons" name="RiceDroid/SimIcons" remote="rice" />
   <project path="packages/apps/Settings" name="RiceDroid/android_packages_apps_Settings" remote="rice" />
-  <project path="packages/apps/ThemePicker" name="RiceDroid/android_packages_apps_ThemePicker" remote="rice" />
   <project path="packages/apps/Updater" name="RiceDroid/android_packages_apps_Updater" remote="rice" />
   <project path="packages/services/OmniJaws" name="RiceDroid/packages_services_OmniJaws" remote="rice" />
 
@@ -79,9 +78,9 @@
   <project path="system/memory/lmkd" name="RiceDroid/android_system_memory_lmkd" remote="rice" />
   <project path="system/vold" name="RiceDroid/android_system_vold" remote="rice" />
  
-  <project path="vendor/addons" name="darknius09/rice_vendor_addons" remote="github" revision="twelve" clone-depth="1" />
+  <project path="vendor/addons" name="RiceDroid/android_vendor_addons" remote="rice" />
   <project path="vendor/gms" name="android_vendor_gms" remote="sairam-gitlab" clone-depth="1" />
-  <project path="vendor/lineage" name="RiceDroid/android_vendor_rice" remote="rice" />
+  <project path="vendor/lineage" name="darknius09/android_vendor_rice" remote="github" revision="twelve" />
   <project path="vendor/riceDroidOTA" name="RiceDroid/android_vendor_RiceDroidOTA" remote="rice" />
   
 </manifest>
