@@ -78,7 +78,7 @@
   <project path="system/memory/lmkd" name="RiceDroid/android_system_memory_lmkd" remote="rice" />
   <project path="system/vold" name="RiceDroid/android_system_vold" remote="rice" />
  
-  <project path="vendor/addons" name="RiceDroid/android_vendor_addons" remote="rice" />
+  <project path="vendor/addons" name="darknius09/rice_vendor_addons" remote="github" revision="twelve" clone-depth="1" />
   <project path="vendor/gms" name="android_vendor_gms" remote="sairam-gitlab" clone-depth="1" />
   <project path="vendor/lineage" name="darknius09/android_vendor_rice" remote="github" revision="twelve" />
   <project path="vendor/riceDroidOTA" name="RiceDroid/android_vendor_RiceDroidOTA" remote="rice" />
